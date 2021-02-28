@@ -1,4 +1,6 @@
-# server
+# goftpd
+
+**Forked from https://gitea.com/goftp/server**
 
 [![Build Status](https://drone.gitea.com/api/badges/goftp/server/status.svg)](https://drone.gitea.com/goftp/server) [![](http://gocover.io/_badge/gitea.com/goftp/server)](http://gocover.io/gitea.com/goftp/server)
 [![](https://goreportcard.com/badge/gitea.com/goftp/server)](https://goreportcard.com/report/gitea.com/goftp/server)

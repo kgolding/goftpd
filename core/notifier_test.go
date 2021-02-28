@@ -14,8 +14,8 @@ import (
 
 	"github.com/jlaffaye/ftp"
 	"github.com/stretchr/testify/assert"
-	"goftp.io/server/core"
-	"goftp.io/server/driver/file"
+	"github.com/kgolding/goftpd/core"
+	"github.com/kgolding/goftpd/driver/file"
 )
 
 type mockNotifier struct {

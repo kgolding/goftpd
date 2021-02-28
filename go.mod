@@ -1,4 +1,4 @@
-module goftp.io/server
+module github.com/kgolding/goftpd
 
 go 1.12
 
