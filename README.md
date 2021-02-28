@@ -7,23 +7,23 @@
 
 A FTP server framework forked from [github.com/yob/graval](http://github.com/yob/graval) and changed a lot.
 
-Full documentation for the package is available on [godoc](http://pkg.go.dev/goftp.io/server)
+Full documentation for the package is available on [godoc](http://pkg.go.dev/github.com/kgolding/goftpd)
 
 ## Installation
 
-    go get goftp.io/server
+    go get github.com/kgolding/goftpd
 
 If you want to use v2 version which has some break change on interfaces, just
 
-    go get goftp.io/server/v2
+    go get github.com/kgolding/goftpd/v2
 
 ## Usage
 
 To boot a FTP server you will need to provide a driver that speaks to
 your persistence layer - the required driver contract is in [the
-documentation](http://pkg.go.dev/goftp.io/server/core).
+documentation](http://pkg.go.dev/github.com/kgolding/goftpd/core).
 
-Look at the [file driver](https://goftp.io/server/driver/file) to see
+Look at the [file driver](https://github.com/kgolding/goftpd/driver/file) to see
 an example of how to build a backend.
 
 There is a [sample ftp server](https://goftp.io/ftpd) as a demo. You can build it with this
